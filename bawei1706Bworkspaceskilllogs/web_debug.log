@@ -1,0 +1,24 @@
+2020-05-27 11:08:56.452 [http-nio-80-exec-1] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - ==>  Preparing: select id, activity_name, start_time, end_time from t_activity where id = ? 
+2020-05-27 11:08:56.474 [http-nio-80-exec-1] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2020-05-27 11:08:56.500 [http-nio-80-exec-1] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - <==      Total: 1
+2020-05-27 11:09:08.951 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - ==>  Preparing: select id, activity_name, start_time, end_time from t_activity where id = ? 
+2020-05-27 11:09:08.952 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2020-05-27 11:09:08.955 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - <==      Total: 1
+2020-05-27 11:09:08.956 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ProductMapper.selectByPrimaryKey - ==>  Preparing: select id, product_name, stock, price, `status`, create_time from t_product where id = ? 
+2020-05-27 11:09:08.956 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ProductMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2020-05-27 11:09:08.959 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ProductMapper.selectByPrimaryKey - <==      Total: 1
+2020-05-27 11:09:08.979 [http-nio-80-exec-4] DEBUG com.cjl.skill.mapper.ProductMapper.decreaseStock - ==>  Preparing: update t_product set stock = stock - 1 where id = ? and stock > 0 
+2020-05-27 11:09:08.979 [http-nio-80-exec-4] DEBUG com.cjl.skill.mapper.ProductMapper.decreaseStock - ==> Parameters: 1(Integer)
+2020-05-27 11:09:08.981 [http-nio-80-exec-4] DEBUG com.cjl.skill.mapper.ProductMapper.decreaseStock - <==    Updates: 1
+2020-05-27 11:14:15.271 [http-nio-80-exec-2] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - ==>  Preparing: select id, activity_name, start_time, end_time from t_activity where id = ? 
+2020-05-27 11:14:15.294 [http-nio-80-exec-2] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2020-05-27 11:14:15.322 [http-nio-80-exec-2] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - <==      Total: 1
+2020-05-27 11:14:17.669 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - ==>  Preparing: select id, activity_name, start_time, end_time from t_activity where id = ? 
+2020-05-27 11:14:17.670 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2020-05-27 11:14:17.672 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ActivityMapper.selectByPrimaryKey - <==      Total: 1
+2020-05-27 11:14:17.672 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ProductMapper.selectByPrimaryKey - ==>  Preparing: select id, product_name, stock, price, `status`, create_time from t_product where id = ? 
+2020-05-27 11:14:17.673 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ProductMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+2020-05-27 11:14:17.675 [http-nio-80-exec-4] DEBUG c.c.skill.mapper.ProductMapper.selectByPrimaryKey - <==      Total: 1
+2020-05-27 11:14:17.687 [http-nio-80-exec-4] DEBUG com.cjl.skill.mapper.ProductMapper.decreaseStock - ==>  Preparing: update t_product set stock = stock - 1 where id = ? and stock > 0 
+2020-05-27 11:14:17.687 [http-nio-80-exec-4] DEBUG com.cjl.skill.mapper.ProductMapper.decreaseStock - ==> Parameters: 1(Integer)
+2020-05-27 11:14:17.690 [http-nio-80-exec-4] DEBUG com.cjl.skill.mapper.ProductMapper.decreaseStock - <==    Updates: 1

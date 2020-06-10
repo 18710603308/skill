@@ -1,0 +1,2 @@
+2020-05-27 11:08:56.289 [http-nio-80-exec-1] WARN  com.alibaba.druid.pool.DruidDataSource - get connection timeout retry : 1
+2020-05-27 11:14:15.142 [http-nio-80-exec-2] WARN  com.alibaba.druid.pool.DruidDataSource - get connection timeout retry : 1
